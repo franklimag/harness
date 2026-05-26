@@ -115,7 +115,9 @@ mattpocock/skills 中每个 Skill 都是一个独立的 `SKILL.md` 文件。与 
 
 ### 实际示例: tdd Skill
 
-```markdown
+以下是 `tdd/SKILL.md` 的完整内容：
+
+````markdown
 # TDD (Test-Driven Development)
 
 > 编写代码前先写测试。通过 Red-Green-Refactor 循环确保代码正确性。
@@ -163,7 +165,7 @@ mattpocock/skills 中每个 Skill 都是一个独立的 `SKILL.md` 文件。与 
 ## 示例
 
 ### 好的做法
-```
+```js
 // 测试名清楚描述行为
 it('returns empty array when no items match filter', () => {
   const items = [{ name: 'a', active: false }];
@@ -172,14 +174,14 @@ it('returns empty array when no items match filter', () => {
 ```
 
 ### 避免的做法
-```
+```js
 // 测试名描述实现而非行为
 it('calls array.filter method', () => { ... });
 
 // 测试多个行为
 it('filters and sorts and paginates', () => { ... });
 ```
-```
+````
 
 ## 格式设计决策
 
