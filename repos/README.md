@@ -15,6 +15,7 @@
 | CodeGraph | colbymchenry | TypeScript | 预索引代码知识图谱，减少 Agent 92% 工具调用 | [codegraph.md](codegraph.md) |
 | Graphify | safishamsi | Python | 多模态知识图谱 Skill（代码+文档+图片+视频→图谱） | [graphify.md](graphify.md) |
 | Claude-Mem | thedotmack | TypeScript | Agent 跨 Session 持久化记忆（自动捕获+AI 压缩+注入） | [claude-mem.md](claude-mem.md) |
+| OpenClaw | OpenClaw | JS/TypeScript | 自托管 AI Agent 框架（350k⭐, Gateway+AgentLoop+Memory） | [openclaw.md](openclaw.md) |
 
 ## 分类参考
 

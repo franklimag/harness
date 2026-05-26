@@ -4,7 +4,7 @@
 
 ### 架构分析
 
-*待添加*
+- [OpenClaw 学习笔记](openclaw.md) — 引用自 [franklimag/openclaw](https://github.com/franklimag/openclaw)（含 Gateway/AgentLoop/Memory/Skills/Channels/Security 6 个模块笔记）
 
 ### 源码阅读
 
