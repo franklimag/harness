@@ -4,10 +4,14 @@
 
 ## 收录列表
 
-### 🏗️ Agent Harness 工具
+### 🏗️ Agent Harness 框架 / 优化系统
 
 | 项目 | 组织 | 语言 | 核心定位 | 详情 |
 |------|------|------|---------|------|
+| ECC | affaan-m | Markdown/YAML | Agent Harness 性能优化系统（156+ Skills, 25+ Agents） | [ecc.md](ecc.md) |
+| Superpowers | obra (Jesse Vincent) | Markdown | Agent 开发方法论框架（brainstorm→plan→TDD→review） | [superpowers.md](superpowers.md) |
+| Skills | mattpocock | Markdown | 面向工程师的可组合 Agent Skills 集合 | [skills.md](skills.md) |
+| Hermes Agent | NousResearch | Python/Rust | 自进化 AI Agent（内置学习循环 + 多平台通信） | [hermes-agent.md](hermes-agent.md) |
 | CodeGraph | colbymchenry | TypeScript | 预索引代码知识图谱，减少 Agent 92% 工具调用 | [codegraph.md](codegraph.md) |
 
 ## 分类参考
