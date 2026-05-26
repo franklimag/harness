@@ -16,19 +16,19 @@
 | safishamsi/graphify | Safi Shamsi | Python | 多模态知识图谱 Skill（代码+文档+图片+视频→图谱, 30k⭐） | [信息](safishamsi-graphify.md) | [笔记](../notes/safishamsi-graphify/) |
 | thedotmack/claude-mem | thedotmack | TypeScript | Agent 跨 Session 持久化记忆（72k⭐, 5 阶段 Hook） | [信息](thedotmack-claude-mem.md) | [笔记](../notes/thedotmack-claude-mem/) |
 
-## 分类参考
+## 当前覆盖的维度
 
-### 🏗️ Agent Harness 框架
-构建和运行 AI Agent 的核心基础设施（编排、工具、记忆、安全）。
+| 维度 | 收录项目 |
+|------|---------|
+| 🏗️ 完整 Agent 框架 | openclaw/openclaw, NousResearch/hermes-agent |
+| ⚙️ Harness 配置/优化系统 | affaan-m/ECC |
+| 📐 开发方法论 | obra/superpowers |
+| 🧩 Skills 集合 | mattpocock/skills |
+| 🧠 上下文工程 (代码图谱) | colbymchenry/codegraph |
+| 🧠 上下文工程 (多模态图谱) | safishamsi/graphify |
+| 🧠 上下文工程 (记忆持久化) | thedotmack/claude-mem |
 
-### 🧪 评估框架 (Evaluation Harness)
-测试和评估 AI Agent / LLM 能力的基准和框架。
-
-### 🐳 沙箱与运行时 (Sandbox / Runtime)
-为 AI Agent 提供安全隔离的代码执行环境。
-
-### 🔗 协议与标准
-Agent 通信和任务定义的标准化规范。
+> 暂未收录：评估框架 (Evaluation)、沙箱/运行时 (Sandbox)、协议标准 (Protocol)。如需扩展可由维护者指定。
 
 ---
 
