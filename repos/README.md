@@ -4,7 +4,11 @@
 
 ## 收录列表
 
-*待指定 — 请告诉我你要追踪的项目*
+### 🏗️ Agent Harness 工具
+
+| 项目 | 组织 | 语言 | 核心定位 | 详情 |
+|------|------|------|---------|------|
+| CodeGraph | colbymchenry | TypeScript | 预索引代码知识图谱，减少 Agent 92% 工具调用 | [codegraph.md](codegraph.md) |
 
 ## 分类参考
 
