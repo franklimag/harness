@@ -13,6 +13,8 @@
 | Skills | mattpocock | Markdown | 面向工程师的可组合 Agent Skills 集合 | [skills.md](skills.md) |
 | Hermes Agent | NousResearch | Python/Rust | 自进化 AI Agent（内置学习循环 + 多平台通信） | [hermes-agent.md](hermes-agent.md) |
 | CodeGraph | colbymchenry | TypeScript | 预索引代码知识图谱，减少 Agent 92% 工具调用 | [codegraph.md](codegraph.md) |
+| Graphify | safishamsi | Python | 多模态知识图谱 Skill（代码+文档+图片+视频→图谱） | [graphify.md](graphify.md) |
+| Claude-Mem | thedotmack | TypeScript | Agent 跨 Session 持久化记忆（自动捕获+AI 压缩+注入） | [claude-mem.md](claude-mem.md) |
 
 ## 分类参考
 
