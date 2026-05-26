@@ -1,36 +1,62 @@
 # 学习笔记索引
 
-## 笔记分类
+> 每个追踪的 repo 拥有独立目录，承载：repo 解读、学习笔记、更新记录。
 
-### 架构分析
+## 目录结构
 
-- [OpenClaw 学习笔记](openclaw.md) — 引用自 [franklimag/openclaw](https://github.com/franklimag/openclaw)（含 Gateway/AgentLoop/Memory/Skills/Channels/Security 6 个模块笔记）
+```
+notes/
+├── README.md                          # 本文件
+├── openclaw-openclaw/                 # OpenClaw 学习笔记（已有完整内容）
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── references.md
+│   └── notes/
+│       ├── 01-gateway.md
+│       ├── 02-agent-loop.md
+│       ├── ...
+├── colbymchenry-codegraph/
+│   └── README.md
+├── affaan-m-ECC/
+│   └── README.md
+├── mattpocock-skills/
+│   └── README.md
+├── obra-superpowers/
+│   └── README.md
+├── NousResearch-hermes-agent/
+│   └── README.md
+├── safishamsi-graphify/
+│   └── README.md
+└── thedotmack-claude-mem/
+    └── README.md
+```
 
-### 源码阅读
+## 各 Repo 笔记
 
-*待添加*
+| Repo | 状态 | 入口 |
+|------|------|------|
+| [openclaw/openclaw](openclaw-openclaw/) | ✅ 已有完整笔记 | [查看](openclaw-openclaw/README.md) |
+| [colbymchenry/codegraph](colbymchenry-codegraph/) | 待开始 | [查看](colbymchenry-codegraph/README.md) |
+| [affaan-m/ECC](affaan-m-ECC/) | 待开始 | [查看](affaan-m-ECC/README.md) |
+| [mattpocock/skills](mattpocock-skills/) | 待开始 | [查看](mattpocock-skills/README.md) |
+| [obra/superpowers](obra-superpowers/) | 待开始 | [查看](obra-superpowers/README.md) |
+| [NousResearch/hermes-agent](NousResearch-hermes-agent/) | 待开始 | [查看](NousResearch-hermes-agent/README.md) |
+| [safishamsi/graphify](safishamsi-graphify/) | 待开始 | [查看](safishamsi-graphify/README.md) |
+| [thedotmack/claude-mem](thedotmack-claude-mem/) | 待开始 | [查看](thedotmack-claude-mem/README.md) |
 
-### 实践心得
+## 每个目录的约定结构
 
-*待添加*
-
-### 对比总结
-
-*待添加*
-
----
-
-## 笔记模板
-
-每篇笔记建议包含：
-
-1. **主题**: 笔记关注的核心问题
-2. **背景**: 相关项目/技术背景
-3. **内容**: 核心内容记录
-4. **思考**: 个人理解和思考
-5. **参考**: 相关链接和资料
-
-文件命名建议：`YYYY-MM-DD-主题.md`
+```
+notes/<owner>-<repo>/
+├── README.md              # 学习总览 + 进度
+├── architecture.md        # 架构解读
+├── changelog.md           # 版本更新追踪
+├── references.md          # 参考资料
+└── notes/                 # 模块学习笔记
+    ├── 01-xxx.md
+    └── ...
+```
 
 ---
 
