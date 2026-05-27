@@ -7,43 +7,79 @@
 ```
 notes/
 ├── README.md                          # 本文件
-├── openclaw-openclaw/                 # OpenClaw 学习笔记（已有完整内容）
+├── openclaw-openclaw/                 # OpenClaw 学习笔记
 │   ├── README.md
 │   ├── architecture.md
 │   ├── changelog.md
+│   ├── learning-guide.md
 │   ├── references.md
 │   └── notes/
 │       ├── 01-gateway.md
 │       ├── 02-agent-loop.md
 │       ├── ...
-├── colbymchenry-codegraph/
-│   └── README.md
-├── affaan-m-ECC/
-│   └── README.md
-├── mattpocock-skills/
-│   └── README.md
-├── obra-superpowers/
-│   └── README.md
-├── NousResearch-hermes-agent/
-│   └── README.md
-├── safishamsi-graphify/
-│   └── README.md
-└── thedotmack-claude-mem/
-    └── README.md
+├── colbymchenry-codegraph/            # CodeGraph 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+├── affaan-m-ECC/                      # ECC 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+├── mattpocock-skills/                 # Skills 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+├── obra-superpowers/                  # Superpowers 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+├── NousResearch-hermes-agent/         # Hermes Agent 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+├── safishamsi-graphify/               # Graphify 学习笔记
+│   ├── README.md
+│   ├── architecture.md
+│   ├── changelog.md
+│   ├── learning-guide.md
+│   ├── references.md
+│   └── notes/
+└── thedotmack-claude-mem/             # Claude-Mem 学习笔记
+    ├── README.md
+    ├── architecture.md
+    ├── changelog.md
+    ├── learning-guide.md
+    ├── references.md
+    └── notes/
 ```
 
 ## 各 Repo 笔记
 
-| Repo | 状态 | 入口 |
-|------|------|------|
-| [openclaw/openclaw](openclaw-openclaw/) | ✅ 已有完整笔记 | [查看](openclaw-openclaw/README.md) |
-| [colbymchenry/codegraph](colbymchenry-codegraph/) | 待开始 | [查看](colbymchenry-codegraph/README.md) |
-| [affaan-m/ECC](affaan-m-ECC/) | 待开始 | [查看](affaan-m-ECC/README.md) |
-| [mattpocock/skills](mattpocock-skills/) | 待开始 | [查看](mattpocock-skills/README.md) |
-| [obra/superpowers](obra-superpowers/) | 待开始 | [查看](obra-superpowers/README.md) |
-| [NousResearch/hermes-agent](NousResearch-hermes-agent/) | 待开始 | [查看](NousResearch-hermes-agent/README.md) |
-| [safishamsi/graphify](safishamsi-graphify/) | 待开始 | [查看](safishamsi-graphify/README.md) |
-| [thedotmack/claude-mem](thedotmack-claude-mem/) | 待开始 | [查看](thedotmack-claude-mem/README.md) |
+| Repo | 状态 | 同步版本 | 同步日期 | 入口 |
+|------|------|---------|---------|------|
+| [openclaw/openclaw](openclaw-openclaw/) | ✅ 完整笔记 | v2026.5.22 | 2026-05-26 | [查看](openclaw-openclaw/README.md) |
+| [colbymchenry/codegraph](colbymchenry-codegraph/) | ✅ 完整笔记 | v0.9.4 | 2026-05-26 | [查看](colbymchenry-codegraph/README.md) |
+| [affaan-m/ECC](affaan-m-ECC/) | ✅ 完整笔记 | v2.0.0-rc.1 | 2026-05-26 | [查看](affaan-m-ECC/README.md) |
+| [mattpocock/skills](mattpocock-skills/) | ✅ 完整笔记 | _N/A_ (持续交付) | 2026-05-26 | [查看](mattpocock-skills/README.md) |
+| [obra/superpowers](obra-superpowers/) | ✅ 完整笔记 | _N/A_ (持续交付) | 2026-05-26 | [查看](obra-superpowers/README.md) |
+| [NousResearch/hermes-agent](NousResearch-hermes-agent/) | ✅ 完整笔记 | _N/A_ (持续交付) | 2026-05-26 | [查看](NousResearch-hermes-agent/README.md) |
+| [safishamsi/graphify](safishamsi-graphify/) | ✅ 完整笔记 | _N/A_ (持续交付) | 2026-05-26 | [查看](safishamsi-graphify/README.md) |
+| [thedotmack/claude-mem](thedotmack-claude-mem/) | ✅ 完整笔记 | _N/A_ (持续交付) | 2026-05-26 | [查看](thedotmack-claude-mem/README.md) |
 
 ## 每个目录的约定结构
 
@@ -87,4 +123,4 @@ notes/<owner>-<repo>/
 
 ---
 
-*最后更新: 2026-05-26*
+*最后更新: 2026-05-27*
