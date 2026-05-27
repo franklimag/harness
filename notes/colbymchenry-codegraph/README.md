@@ -2,6 +2,15 @@
 
 > 用于系统学习 [CodeGraph](https://github.com/colbymchenry/codegraph) 架构、实现与设计思想的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | 2026-05-24 |
+| 对应版本 | v0.9.4 |
+
 ## 项目简介
 
 **CodeGraph** 是一个预索引代码知识图谱工具，由 Colby McHenry 开发。它使用 Tree-sitter 将源代码解析为 AST，提取函数/类/方法等节点和调用/导入/继承等边，存储到本地 SQLite 数据库，通过 MCP Server 暴露给 AI Agent 使用。

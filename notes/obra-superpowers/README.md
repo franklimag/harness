@@ -2,6 +2,15 @@
 
 > 用于系统学习 [superpowers](https://github.com/obra/superpowers) 架构、工作流方法论与 Skills 系统的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | _待填入_ |
+
 ## 项目简介
 
 **obra/superpowers** 是由 Jesse Vincent (@obra) 开发的**完整软件开发方法论**。不同于其他 Skills 集合，superpowers 不仅提供技能，更强制执行一套经过验证的开发工作流：从头脑风暴到实现到审查的完整流程。

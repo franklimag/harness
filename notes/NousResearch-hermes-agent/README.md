@@ -2,6 +2,15 @@
 
 > 用于系统学习 [hermes-agent](https://github.com/NousResearch/hermes-agent) 架构、自进化机制与多平台设计的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | _待填入_ |
+
 ## 项目简介
 
 **hermes-agent** 是由 Nous Research 开发的**自进化 AI Agent**，标语为"The agent that grows with you"。它不仅是一个编码助手，更是一个具有闭环学习能力、多平台通信、多模型支持的完整 Agent 系统。

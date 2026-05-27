@@ -2,6 +2,15 @@
 
 > 用于系统学习 [ECC](https://github.com/affaan-m/ECC) 架构、功能与更新的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | v2.0.0-rc.1 |
+
 ## 项目简介
 
 **ECC** (Everything Claude Code，原名 everything-claude-code) 是一个开源的、plugin-first 的 Agent Harness 配置框架。它不是独立的 AI Agent，而是增强和优化现有 AI 编码工具（Claude Code、Cursor、Codex 等）行为的配置系统，通过 Skills、Agents、Hooks、Rules、Instincts 六大构建块让 AI 编码工具按照最佳实践自动工作。

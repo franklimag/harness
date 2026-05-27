@@ -2,6 +2,15 @@
 
 > 用于系统学习 [claude-mem](https://github.com/thedotmack/claude-mem) 跨 Session 持久化记忆系统的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | _待填入_ |
+
 ## 项目简介
 
 **claude-mem** 是由 Alex Newman (@thedotmack) 开发的 **Agent 跨 Session 持久化记忆**系统。通过 5 阶段 Hook 生命周期捕获每次 Session 中的工具使用和发现，用 AI 压缩后存储，在新 Session 开始时注入相关上下文。
