@@ -49,7 +49,7 @@ notes/
 
 ```
 notes/<owner>-<repo>/
-├── README.md              # 学习总览 + 进度
+├── README.md              # 学习总览 + 进度 + Tracking Snapshot
 ├── architecture.md        # 架构解读
 ├── changelog.md           # 版本更新追踪
 ├── references.md          # 参考资料
@@ -57,6 +57,33 @@ notes/<owner>-<repo>/
     ├── 01-xxx.md
     └── ...
 ```
+
+## Tracking Snapshot 约定
+
+每个 repo 的 `README.md` 头部（项目简介之前）必须包含以下版本锚点表格：
+
+```markdown
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | `abc1234...` (完整 SHA 或短 SHA) |
+| 同步日期 | 2026-05-27 |
+| 对应版本 | v0.9.4 (如有 tag/release) |
+```
+
+### 用途
+
+- **检查更新**: 使用 `git log <最后同步 commit>..HEAD` 精确筛选新增 commit
+- **版本对齐**: 确保笔记内容与源码版本一致
+- **变更可追溯**: 每次同步笔记时更新此表格
+
+### 维护规则
+
+1. 每次阅读/同步上游 repo 后，**必须**更新 Tracking Snapshot
+2. 如果上游 repo 没有明确版本号，`对应版本` 填 `_N/A_`
+3. `最后同步 commit` 优先填完整 SHA，至少填 7 位短 SHA
 
 ---
 

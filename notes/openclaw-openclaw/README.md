@@ -2,6 +2,15 @@
 
 > 用于系统学习 [OpenClaw](https://github.com/openclaw/openclaw) 架构、功能与更新的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | 2026-05-20 |
+| 对应版本 | v2026.5.12 |
+
 ## 项目简介
 
 **OpenClaw** (原名 Clawdbot/Moltbot) 是一个开源的、自托管的个人 AI Agent 框架。它作为 daemon 进程运行在你自己的设备上，通过 Gateway 将 50+ 消息平台连接到 AI Agent 运行时，让大语言模型能够自主执行真实世界的任务。

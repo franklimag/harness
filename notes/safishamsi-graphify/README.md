@@ -2,6 +2,15 @@
 
 > 用于系统学习 [graphify](https://github.com/safishamsi/graphify) 多模态知识图谱构建与查询系统的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | _待填入_ |
+
 ## 项目简介
 
 **graphify** 是由 Safi Shamsi 开发的**多模态知识图谱**工具。不同于只处理代码的 AST 图谱工具，graphify 能从任何文件类型（代码、文档、PDF、图片、视频）中提取实体和关系，构建统一的知识图谱。

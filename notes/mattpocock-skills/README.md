@@ -2,6 +2,15 @@
 
 > 用于系统学习 [mattpocock/skills](https://github.com/mattpocock/skills) 架构、设计哲学与实践方法的知识库。
 
+## Tracking Snapshot
+
+| 字段 | 值 |
+|------|-----|
+| 追踪分支 | `main` |
+| 最后同步 commit | _待填入_ |
+| 同步日期 | _待填入_ |
+| 对应版本 | _待填入_ |
+
 ## 项目简介
 
 **mattpocock/skills** 是由 Matt Pocock（Total TypeScript 创建者）开发的**可组合 Agent Skills 集合**。不同于 ECC 的"大而全"策略，skills 追求"小而精、易适配、可组合"的设计哲学，强调基于数十年工程经验的实用型技能。
